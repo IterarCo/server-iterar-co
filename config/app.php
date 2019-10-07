@@ -173,7 +173,13 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
+        App\Providers\TelescopeServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+         /*
+         * Vendros Service Providers...
+         */
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class
 
     ],
 
@@ -225,6 +231,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'SEOMeta'   => Artesaos\SEOTools\Facades\SEOMeta::class,
+        'OpenGraph' => Artesaos\SEOTools\Facades\OpenGraph::class,
+        'Twitter'   => Artesaos\SEOTools\Facades\TwitterCard::class,
+        'JsonLd'   => Artesaos\SEOTools\Facades\JsonLd::class,
+        'SEO' => Artesaos\SEOTools\Facades\SEOTools::class
 
     ],
 
