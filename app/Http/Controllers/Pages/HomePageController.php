@@ -21,7 +21,7 @@ class HomePageController extends Controller
     public function index()
     {
 
-        SEOTools::setTitle('Home');
+        SEOTools::setTitle('Home Yeah!');
         SEOTools::setDescription('This is my page description');
         SEOTools::opengraph()->setUrl('http://current.url.com');
         SEOTools::setCanonical('https://codecasts.com.br/lesson');
