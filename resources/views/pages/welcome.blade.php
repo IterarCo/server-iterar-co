@@ -83,7 +83,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Jorge 2 !!!
+                    Laravel Jorge 3 !!!
                 </div>
 
                 <div class="links">
