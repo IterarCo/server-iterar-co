@@ -11,8 +11,33 @@
 |
 */
 
-Route::get('/','Pages\HomePageController@index');
 
-Route::get('/app', function () {
-    return view('pages.welcome');
-});
+/** ****************************************************** **
+ **                       AUTH ROUTES                      **
+ ********************************************************* **/
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+/**  ****************************************************  **/
+
+
+/** ****************************************************** **
+ **                       AUTH ROUTES                      **
+ ********************************************************* **/
+Route::get('/admin','Pages\AdminPageController@index');
+Route::post('/admin/auth/login','Pages\AdminPageController@login');
+Route::post('/admin/auth/logout','Pages\AdminPageController@logout');
+/**  ****************************************************  **/
+
+
+
+
+
+
+Route::get('/','Pages\HomePageController@index');
+Route::get('/app','Pages\AppPageController@index');
+Route::get('/courses','Pages\CoursesPageController@index');
+Route::get('/shop','Pages\ShopPageController@index');
+Route::get('/payment','Pages\PaymentPageController@index');
+Route::get('/terms','Pages\TermsPageController@index');
+
+
