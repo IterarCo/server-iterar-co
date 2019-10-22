@@ -16,7 +16,7 @@
  **                       HOME ROUTES                      **
  ********************************************************* **/
     Route::get('/','Pages\HomePageController@index');
-    Route::get('/home', 'HomeController@index')->name('home');
+    //Route::get('/home', 'HomeController@index')->name('home');
 /**  ****************************************************  **/
 
 
