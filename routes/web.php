@@ -13,19 +13,43 @@
 
 
 /** ****************************************************** **
- **                       AUTH ROUTES                      **
+ **                       HOME ROUTES                      **
  ********************************************************* **/
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('/','Pages\HomePageController@index');
+    Route::get('/home', 'HomeController@index')->name('home');
 /**  ****************************************************  **/
+
+
+
 
 
 /** ****************************************************** **
  **                       AUTH ROUTES                      **
  ********************************************************* **/
-Route::get('/admin','Pages\AdminPageController@index');
-Route::post('/admin/auth/login','Pages\AdminPageController@login');
-Route::post('/admin/auth/logout','Pages\AdminPageController@logout');
+    Auth::routes();
+/**  ****************************************************  **/
+
+
+
+
+
+/** ****************************************************** **
+ **               MODULE INNOVAR (Tech) ROUTES             **
+ ********************************************************* **/
+    Route::get('/courses','Models\CourseController@showAll');
+    Route::get('/courses','Models\CourseController@showAll');
+/**  ****************************************************  **/
+
+
+
+
+
+/** ****************************************************** **
+ **                       ADMIN ROUTES                     **
+ ********************************************************* **/
+    Route::get('/admin','Pages\AdminPageController@index');
+    Route::post('/admin/auth/login','Pages\AdminPageController@login');
+    Route::post('/admin/auth/logout','Pages\AdminPageController@logout');
 /**  ****************************************************  **/
 
 
@@ -33,7 +57,6 @@ Route::post('/admin/auth/logout','Pages\AdminPageController@logout');
 
 
 
-Route::get('/','Pages\HomePageController@index');
 Route::get('/app','Pages\AppPageController@index');
 Route::get('/courses','Pages\CoursesPageController@index');
 Route::get('/shop','Pages\ShopPageController@index');

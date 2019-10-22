@@ -9,8 +9,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "anhskohbo/no-captcha": "^3.1",
         "artesaos/seotools": "^0.16.0",
         "fideloper/proxy": "^4.0",
+        "htmlmin/htmlmin": "^6.0",
+        "laravel/cashier": "^10.3",
         "laravel/framework": "^6.0",
         "laravel/passport": "^7.5",
         "laravel/telescope": "^2.1",
