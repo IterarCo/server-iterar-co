@@ -36,8 +36,8 @@
 /** ****************************************************** **
  **               MODULE INNOVAR (Tech) ROUTES             **
  ********************************************************* **/
-    Route::get('/courses','Models\CourseController@showAll');
-    Route::get('/courses','Models\CourseController@showAll');
+    //Route::get('/courses','Models\CourseController@showAll');
+    //Route::get('/courses','Models\CourseController@showAll');
 /**  ****************************************************  **/
 
 
@@ -47,9 +47,9 @@
 /** ****************************************************** **
  **                       ADMIN ROUTES                     **
  ********************************************************* **/
-    Route::get('/admin','Pages\AdminPageController@index');
-    Route::post('/admin/auth/login','Pages\AdminPageController@login');
-    Route::post('/admin/auth/logout','Pages\AdminPageController@logout');
+    //Route::get('/admin','Pages\AdminPageController@index');
+    //Route::post('/admin/auth/login','Pages\AdminPageController@login');
+    //Route::post('/admin/auth/logout','Pages\AdminPageController@logout');
 /**  ****************************************************  **/
 
 
@@ -57,10 +57,10 @@
 
 
 
-Route::get('/app','Pages\AppPageController@index');
-Route::get('/courses','Pages\CoursesPageController@index');
-Route::get('/shop','Pages\ShopPageController@index');
-Route::get('/payment','Pages\PaymentPageController@index');
-Route::get('/terms','Pages\TermsPageController@index');
+//Route::get('/app','Pages\AppPageController@index');
+//Route::get('/courses','Pages\CoursesPageController@index');
+//Route::get('/shop','Pages\ShopPageController@index');
+//Route::get('/payment','Pages\PaymentPageController@index');
+//Route::get('/terms','Pages\TermsPageController@index');
 
 

@@ -29,7 +29,7 @@
             <div class="content">
 
                 <div class="title" style="font-size: 34px;">
-                    IterarCo | Entrepreneurship Learning Patform
+                    Iterar | Entrepreneurship Learning Patform
                 </div>
 
                 <br>
