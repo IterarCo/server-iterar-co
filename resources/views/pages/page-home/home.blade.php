@@ -5,7 +5,7 @@
     {{-- --------------------------------------------------------
     ---- --------------- PAGE HEAD COMPONENT ---------------- ---
     --------------------------------------------------------- --}}
-        @include('pages\shared\heads\default-head');
+        @include('pages.shared.heads.default-head');
     {{-- ---------------------------------------------------- --}}
 
 
@@ -36,14 +36,13 @@
                 <br>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="">ITERAR</a>
+                    <a href="">INNOVAR</a>
+                    <a href="">DISEÑAR</a>
+                    <a href="">ADMINISTAR</a>
+                    <a href="">COMERCIALIZAR</a>
+                    <a href="">LEGAL</a>
+                    <a href="">FINANZAS</a>
                 </div>
             </div>
         </div>
