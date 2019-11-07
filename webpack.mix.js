@@ -11,8 +11,12 @@ const mix = require('laravel-mix');
 |
 */
 
-mix.copyDirectory('resources/__sb-admin2/img', 'public/img');
-mix.copyDirectory('resources/__sb-admin2/vendor', 'public/vendor');
+mix.copyDirectory('resources/vendor', 'public/vendor');
+mix.copyDirectory('resources/css', 'public/css');
+mix.copyDirectory('resources/js', 'public/js');
+mix.copyDirectory('resources/images', 'public/images');
+//mix.copyDirectory('resources/__sb-admin2/img', 'public/img');
+//mix.copyDirectory('resources/__sb-admin2/vendor', 'public/vendor');
 
-mix.sass('resources/__sb-admin2/scss/sb-admin-2.scss', 'public/css');
-mix.js('resources/__sb-admin2/js/sb-admin-2.js', 'public/js');
+//mix.sass('resources/__sb-admin2/scss/sb-admin-2.scss', 'public/css');
+//mix.js('resources/__sb-admin2/js/sb-admin-2.js', 'public/js');
