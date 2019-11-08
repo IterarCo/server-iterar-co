@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    ITERAR CO | PLATFORM
+                    ITERAR CO | PLATFORM **
                 </div>
 
                 <div class="links">
