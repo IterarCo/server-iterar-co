@@ -11,19 +11,6 @@
 |
 */
 
-
-
-
-// ------------------------------------------------------  //
-//                       HOME ROUTES                       //
-// ------------------------------------------------------  //
-    Route::get('/',function(){ return redirect('/home');});
-    Route::get('/home','Pages\HomeController@index');
-    Route::get('/admin','Pages\AdminController@index');
-// ------------------------------------------------------  //
-
-
-
-
-//Auth::routes();
-
+Route::get('/', function () {
+    return view('welcome');
+});
