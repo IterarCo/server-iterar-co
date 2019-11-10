@@ -1,4 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.layout-home')
+
+@section('head')
+    @include('shared.heads.head-home')
+@endsection
 
 @section('content')
 <div class="container">
